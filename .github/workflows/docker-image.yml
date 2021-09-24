@@ -52,4 +52,4 @@ jobs:
           file: Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ github.repository }}:latest
+          tags: thetarto/ansible-debian11:latest
