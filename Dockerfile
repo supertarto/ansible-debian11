@@ -1,7 +1,6 @@
 FROM debian:bullseye
 LABEL maintainer="Xavier Binois"
 
-
 ENV DEBIAN_FRONTEND=noninteractive
 
 ENV pip_packages "ansible cryptography"
